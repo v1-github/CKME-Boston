@@ -25,6 +25,4 @@ rmhtimedata.take(5)
 
 timedata1 = rmhtimedata.map(lambda x: x.replace('"','')).map(lambda x:x.split(','))
 
-
-
-this is the update
+timedata1.take(1)
